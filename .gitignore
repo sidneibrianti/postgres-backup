@@ -1,0 +1,16 @@
+# Arquivos e pastas ignorados pelo Git
+
+# Arquivos de configuração
+.env
+
+# Arquivos de backup
+backups/
+
+# Arquivos de cache
+/var/cache
+
+# Arquivos de log
+/var/log
+
+# Arquivos temporários
+/tmp
