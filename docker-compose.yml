@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  postgres-backup:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: postgres-backup
+    restart: always
+    env_file: .env
+    volumes:
+      - ./backups:/var/lib/postgresql/backups
